@@ -1,0 +1,22 @@
+.button-send {
+    
+    &__open-modal {
+        position: fixed !important;
+        right: 30px;
+        bottom: 30px;
+        z-index: 1;
+    }
+
+    button {
+        color: #ffffff;
+        background-color: #1d9bf0;
+        border-color: #00000000;
+        border-radius: 9999px;
+        padding-right: 16px;
+        padding-left: 16px;
+        min-height: 36px;
+        min-width: 36px;
+        font-size: 15px;
+        font-weight: 700;
+}
+}

@@ -1,0 +1,35 @@
+.input-search{
+    background-color: rgb(39, 51, 64);
+    border-radius: 9999px;
+    width: 350px;
+    height: 44px;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.box-aside {
+    background-color: rgb(30, 39, 50);
+    height: 572px;
+    width: 348px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+
+
+
+    h3 {
+    color: #f7f9f9;
+    padding: 20px;
+}
+
+}
+  

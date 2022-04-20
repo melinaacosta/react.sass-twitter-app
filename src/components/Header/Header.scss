@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(21,32,43);
+    z-index: 1;
+    fill: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(56, 68, 77);
+
+
+    img {
+        margin-right: 20px;
+        width: 60px;
+    }
+    
+    h1 {
+        color: rgb(255, 255, 255);
+    }  
+}

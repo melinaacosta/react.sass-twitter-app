@@ -1,0 +1,44 @@
+.list-tweets-empty {
+    margin-top: 150px !important;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.list-tweets {
+    margin-top: 20px !important;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    color: rgba(255, 255, 255, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #15202b;
+    border: 1px solid #38444d;
+    box-shadow: 13px -12px 37px -10px rgba(255,255,255,0.38);
+    -webkit-box-shadow: 13px -12px 37px -10px rgba(75, 75, 75, 0.37);
+-moz-box-shadow: 13px -12px 37px -10px rgba(255,255,255,0.38);
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+    max-width: 33%;
+    max-height: 17%;
+}
